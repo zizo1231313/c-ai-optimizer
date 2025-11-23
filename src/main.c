@@ -133,6 +133,9 @@ void benchmark_matrix_multiply(void) {
 }
 
 int main(int argc, char *argv[]) {
+    (void)argc;
+    (void)argv;
+
     utils_init_random();
 
     printf("C AI Optimizer Demo - Normal Version\n");
