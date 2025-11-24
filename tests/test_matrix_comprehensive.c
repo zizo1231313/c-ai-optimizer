@@ -32,11 +32,11 @@ int test_large_matrix_multiply(void)
     int passed = 1;
     if (result != NULL) {
         /* Each element should be N (sum of N 1.0s) */
-        const double expected = (double)N;
+        const double expected = (double) N;
         for (size_t i = 0; i < N * N; i++) {
             if (!utils_double_equal(result->data[i], expected, 1e-6)) {
-                printf("[FAIL - value mismatch at %zu: got %f, expected %f]\n",
-                       i, result->data[i], expected);
+                printf("[FAIL - value mismatch at %zu: got %f, expected %f]\n", i, result->data[i],
+                       expected);
                 passed = 0;
                 break;
             }

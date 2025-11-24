@@ -1,11 +1,11 @@
-/* OPTIMIZED VERSION - Hash: 649b7d34881950df5feb1560621cf1b3369bd6609c7eb26942a6137c6d61e582 */
+/* OPTIMIZED VERSION - Hash: 09d67339a79f88253b7ee7ff711439e7cfde9035e5c30cf3946fd560b9abfb66 */
 
 #include "matrix.h"
 #include "utils.h"
+#include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <omp.h>
 
 #ifdef __x86_64__
 #include <immintrin.h>
@@ -70,7 +70,7 @@ Matrix *matrix_multiply(const Matrix *a, const Matrix *b)
 
     const size_t block_size = 64;
 
-    #pragma omp parallel for schedule(dynamic, 8)
+#pragma omp parallel for schedule(dynamic, 8)
     for (size_t ii = 0; ii < a->rows; ii += block_size) {
         size_t i_end = (ii + block_size < a->rows) ? ii + block_size : a->rows;
 
@@ -120,7 +120,7 @@ Matrix *matrix_add(const Matrix *a, const Matrix *b)
 
     const size_t total = a->rows * a->cols;
 
-    #pragma omp parallel
+#pragma omp parallel
     {
         size_t i = 0;
         /* Distribute work across threads */
@@ -187,7 +187,7 @@ void matrix_scale(Matrix *m, double scalar)
 
     const size_t total = m->rows * m->cols;
 
-    #pragma omp parallel
+#pragma omp parallel
     {
         size_t i = 0;
         const int tid = omp_get_thread_num();
